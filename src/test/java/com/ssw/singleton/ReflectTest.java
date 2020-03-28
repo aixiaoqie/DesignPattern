@@ -5,6 +5,8 @@ import java.lang.reflect.InvocationTargetException;
 
 /**
  * 反射破解单例
+ * <p>
+ * 懒加载实现单例时，若单例对象尚未创建，可以通过反射创建对象，那么反射创建的对象与单例对象不同
  */
 public class ReflectTest {
 
